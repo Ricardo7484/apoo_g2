@@ -34,6 +34,26 @@
 </head>
 <body class="text-center">
 
+<header class="p-3 bg-dark text-white fixed-top">
+    <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="principal.html" class="nav-link px-2 text-white">Imobiliária</a></li>
+                <li><a href="albumgeral.html" class="nav-link px-2 text-white">Comprar</a></li>
+                <li><a href="albumgeral.html" class="nav-link px-2 text-white">Alugar</a></li>
+                <li><a href="albumgeral.html" class="nav-link px-2 text-white">Ofertas</a></li>
+                <li><a href="contato.html" class="nav-link px-2 text-white">Contato</a></li>
+            </ul>
+            <div class="text-end">
+                <a class="btn btn-warning" href="login.html" role="button">Login</a>
+            </div>
+        </div>
+    </div>
+</header>
+
 <main class="form-signin">
     <form>
         <img class="mb-4" src="../imagens/imobiliaria.png" alt="" width="72" height="57">
@@ -51,7 +71,7 @@
                 <input type="checkbox" value="remember-me"> Lembrar dados
             </label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+        <a class="w-100 btn btn-lg btn-primary" href="cadFuncionario.html" role="button">Entrar</a>
     </form>
 </main>
 
