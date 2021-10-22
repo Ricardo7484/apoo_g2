@@ -1,6 +1,6 @@
 var moduloFuncionario = angular.module('moduloFuncionario', []);
 
-moduloFuncionario.controller("cadFuncionarioControler", function ($scope) {
+moduloFuncionario.controller("cadFuncionarioController", function ($scope) {
     $scope.funcionarios = [
         {nome: 'Ricardo1', sobrenome: 'Teixeira1', email: 'ricardo1@hotmail.com', senha: 123456, cracha: 1122, telefone: '991919191', dataCadFuncionario: '15/10/2021'},
         {nome: 'Ricardo2', sobrenome: 'Teixeira2', email: 'ricardo2@hotmail.com', senha: 789012, cracha: 3344, telefone: '992929292', dataCadFuncionario: '15/10/2021'},
